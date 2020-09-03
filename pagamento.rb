@@ -3,7 +3,7 @@ module Pagamento
 
 	def pagar(valor_final)
 		puts "Deseja pagar com Cartão? (S/N)"
-    opcao = gets.chomp
+    opcao = gets.chomp.upcase
 	
     if opcao == "S"
     		puts "Pagando com cartão..."
