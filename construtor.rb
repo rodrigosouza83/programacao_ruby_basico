@@ -5,8 +5,7 @@ class Carro
     def initialize(marca, modelo)#Criando um construtor e instânciando ele
         
         @marca = marca #variáveis de instância
-        @modelo = modelo
-        
+        @modelo = modelo  
     end
 end
 

@@ -1,6 +1,6 @@
 arr = [1,2,45,9,8,42]
 
-arr.each do |i|#Lista os elementos do array - um a um.
+arr.each do |i| #Lista os elementos do array - um a um.
     puts ">> #{i}" 
 end
 
