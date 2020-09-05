@@ -1,9 +1,10 @@
 #Método importante para fazer testes de API Rest e fazer Parse no Json.
 #Será necessário instalar a gem json -> {gem install json}
 
+
 require 'net/http'
 require 'json'
-
+    
 def listar_usuarios
     
     uri = URI('http://jsonplaceholder.typicode.com/users') #Faz uma requisição nesse http
@@ -19,5 +20,6 @@ listar_usuarios do |usuarios|
      usuarios.each do |usuario| #Irá mostrar todos usuários do array.
         puts "Nome: #{usuario["name"]}"
     end
-end
+   end
+
 
