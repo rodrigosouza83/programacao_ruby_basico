@@ -20,7 +20,7 @@ class String
 end
 	end
 	 	sum
-	end
+	endsss
 end
 
 puts "abc".alphabet_sum
