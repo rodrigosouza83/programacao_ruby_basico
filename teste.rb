@@ -13,7 +13,7 @@ cinema = Teste.new("Pulp Fiction", "Quentin Tarantino")
 puts cinema.filme
 puts cinema.diretor
 
-cinema2 = Teste.new("O Resgate do Soldado Ryan", "Steve Spelberg")
+cinema2 = Teste.new("O Resgate do Soldado Ryan", "Steven Spielberg")
 
 puts cinema2.filme
 puts cinema2.diretor
